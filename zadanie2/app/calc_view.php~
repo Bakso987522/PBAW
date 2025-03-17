@@ -6,8 +6,6 @@ $controller = new AuthController();
 $controller->isLogged();
 ?>
 <!DOCTYPE HTML>
-<meta name="viewport"
-content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <head>
