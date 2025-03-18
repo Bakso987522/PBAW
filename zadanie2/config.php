@@ -1,7 +1,7 @@
 <?php
-define('_SERVER_NAME', 'localhost');
-define('_SERVER_URL', 'http://'._SERVER_NAME);
-define('_APP_ROOT', '/uczelniane/zadanie2');
-define('_APP_URL', _SERVER_URL._APP_ROOT);
-define("_ROOT_PATH", dirname(__FILE__));
+define('_SERVER_NAME', $_SERVER['HTTP_HOST']);
+define('_SERVER_URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . '://' . _SERVER_NAME);
+define('_APP_ROOT', str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME'])));
+define('_APP_URL', _SERVER_URL . _APP_ROOT);
+define("_ROOT_PATH", str_replace('\\', '/', dirname(__FILE__)));
 ?>
