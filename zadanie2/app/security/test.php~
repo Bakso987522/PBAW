@@ -1,0 +1,9 @@
+<?php
+require_once __DIR__ . '/../../../config.php';
+
+echo "_SERVER_NAME: " . _SERVER_NAME . "<br>";
+echo "_SERVER_URL: " . _SERVER_URL . "<br>";
+echo "_APP_ROOT: " . _APP_ROOT . "<br>";
+echo "_APP_URL: " . _APP_URL . "<br>";
+echo "_ROOT_PATH: " . _ROOT_PATH . "<br>";
+exit; // Zatrzymuje kod, aby zobaczyć wartości
