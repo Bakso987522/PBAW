@@ -152,7 +152,7 @@ require_once dirname(__FILE__).'/../../config.php';
                         <div class="widget-body">
                             <p class="simplenav">
                                 <a href="#">Strona główna</a> |
-                                <b><a href="signup.html">Logowanie</a></b>
+                                <b><a href="app/security/login_view.php">Logowanie</a></b>
                             </p>
                         </div>
                     </div>
