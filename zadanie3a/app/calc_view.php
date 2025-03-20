@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
+                        <div class="col-sm-10 col-sm-offset-2 text-right">
                             <button type="submit" class="btn btn-action">Oblicz</button>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                 //wyświeltenie listy błędów, jeśli istnieją
                 if (isset($messages)) {
                     if (count ( $messages ) > 0) {
-                        echo '<ol class="alert alert-danger p-3 rounded">';
+                        echo '<ol class="alert alert-danger p-3 rounded list-unstyled top-margin">';
                         echo '<ol >';
                         foreach ( $messages as $key => $msg ) {
                             echo '<li>'.$msg.'</li>';

@@ -101,7 +101,7 @@ require_once dirname(__FILE__).'/../../config.php';
                             //wyświeltenie listy błędów, jeśli istnieją
                             if (isset($messages)) {
                                 if (count ( $messages ) > 0) {
-                                    echo '<ol class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-5 ">';
+                                    echo '<ol class="alert alert-danger p-3 rounded list-unstyled top-margin">';
                                     foreach ( $messages as $key => $msg ) {
                                         echo '<li>'.$msg.'</li>';
                                     }
