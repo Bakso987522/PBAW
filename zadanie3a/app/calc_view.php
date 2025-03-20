@@ -51,7 +51,6 @@
                 if (isset($messages)) {
                     if (count ( $messages ) > 0) {
                         echo '<ol class="alert alert-danger p-3 rounded list-unstyled top-margin">';
-                        echo '<ol >';
                         foreach ( $messages as $key => $msg ) {
                             echo '<li>'.$msg.'</li>';
                         }
