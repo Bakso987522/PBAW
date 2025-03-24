@@ -1,3 +1,6 @@
+<?php include _ROOT_PATH.'/templates/top.php';
+include _ROOT_PATH.'/templates/header.php';
+?>
 <div class="container top-margin bottom-margin">
 
     <h2 class="text-center top-space">Oblicz ratę kredytu</h2>
@@ -66,11 +69,5 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-</div>	<!-- /container -->
+</div>
+<?php include _ROOT_PATH.'/templates/bottom.php';?>
