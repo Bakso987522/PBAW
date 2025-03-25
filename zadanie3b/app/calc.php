@@ -23,7 +23,7 @@ $rate = $_REQUEST ['rate'] ?? null;
 // sprawdzenie, czy parametry zostały przekazane
 if (  (isset($loan) && isset($years) && isset($rate))) {
     //sytuacja wystąpi kiedy np. kontroler zostanie wywołany bezpośrednio - nie z formularza
-    $isLogged ? $smarty->assign('messages', []) : $smarty->assign('messages', ['<a href="app/security/login_view.php">Zaloguj się,</a> aby skorzystać z kalkulatora']);
+    $isLogged ? $smarty->assign('messages', []) : $smarty->assign('messages', ['<a href="app/security/login.php">Zaloguj się,</a> aby skorzystać z kalkulatora']);
 
 // sprawdzenie, czy potrzebne wartości zostały przekazane
     if ($loan == "") {
