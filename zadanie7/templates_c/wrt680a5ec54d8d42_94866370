@@ -1,0 +1,77 @@
+<?php
+/* Smarty version 5.4.2, created on 2025-04-24 17:54:45
+  from 'file:resultsView.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.2',
+  'unifunc' => 'content_680a5ec54d84e6_74609280',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b19c19c576386e6b239b5183a4007a3cacf704ec' => 
+    array (
+      0 => 'resultsView.tpl',
+      1 => 1745510083,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_680a5ec54d84e6_74609280 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\xampp\\htdocs\\zadanie7\\app\\views';
+$_smarty_tpl->getInheritance()->init($_smarty_tpl, true);
+?>
+
+<?php 
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_1475984786680a5ec54d17c7_53404165', 'content');
+$_smarty_tpl->getInheritance()->endChild($_smarty_tpl, 'main.tpl', $_smarty_current_dir);
+}
+/* {block 'content'} */
+class Block_1475984786680a5ec54d17c7_53404165 extends \Smarty\Runtime\Block
+{
+public function callBlock(\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\xampp\\htdocs\\zadanie7\\app\\views';
+?>
+
+    <header id="head" class="secondary"></header>
+
+    <!-- container -->
+    <div class="container min-vh-100" >
+<h1>Wyniki kalkulatora</h1>
+        <div class="row">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>Wynik</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><?php echo $_smarty_tpl->getValue('result');?>
+</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+
+    </div>	<!-- /container -->
+
+<?php
+}
+}
+/* {/block 'content'} */
+}

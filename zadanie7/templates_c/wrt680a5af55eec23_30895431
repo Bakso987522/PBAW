@@ -1,0 +1,69 @@
+<?php
+/* Smarty version 5.4.2, created on 2025-04-24 17:38:29
+  from 'file:resultsView.tpl' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.2',
+  'unifunc' => 'content_680a5af55edf54_33710705',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b19c19c576386e6b239b5183a4007a3cacf704ec' => 
+    array (
+      0 => 'resultsView.tpl',
+      1 => 1745509107,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_680a5af55edf54_33710705 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\xampp\\htdocs\\zadanie7\\app\\views';
+$_smarty_tpl->getInheritance()->init($_smarty_tpl, true);
+?>
+
+<?php 
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_770949685680a5af55e65c0_21844971', 'content');
+$_smarty_tpl->getInheritance()->endChild($_smarty_tpl, 'main.tpl', $_smarty_current_dir);
+}
+/* {block 'content'} */
+class Block_770949685680a5af55e65c0_21844971 extends \Smarty\Runtime\Block
+{
+public function callBlock(\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = 'C:\\xampp\\htdocs\\zadanie7\\app\\views';
+?>
+
+    <header id="head" class="secondary"></header>
+
+    <!-- container -->
+    <div class="container">
+
+        <ol class="breadcrumb">
+            <li><a href="index.php">Strona główna</a></li>
+            <li class="active">Logowanie</li>
+        </ol>
+
+        <div class="row">
+
+            <!-- Article main content -->
+            <article class="col-xs-12 maincontent">
+                <header class="page-header">
+                    <h1 class="page-title">Zaloguj się</h1></br>
+                </header>
+
+               
+
+            </article>
+            <!-- /Article -->
+
+        </div>
+    </div>	<!-- /container -->
+
+<?php
+}
+}
+/* {/block 'content'} */
+}
